@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+nav{
+    width: 40%;
+    display: inline-block;
+}
+nav a{
+    color:white;
+    text-decoration: none;
+}
+main{
+    width: 60%;
+    display: inline-block;
+}
+footer{
+    background-color: blue;
+}
