@@ -1,20 +1,59 @@
 body{
     margin: 0;
-    background-color: black;
+    background-color: rgb(53, 53, 53);
     color: white;
+    padding: 0;
 }
-nav{
-    width: 40%;
-    display: inline-block;
+h2{
+    padding-left: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: x-large;
 }
-nav a{
-    color:white;
-    text-decoration: none;
+img{
+    width: 100%;
 }
 main{
-    width: 60%;
     display: inline-block;
+    width: 67%;
+    padding: 20px;
+}
+main h1{
+    color: rgb(243, 187, 83);
+}
+section{
+    margin: 40px 100px 40px 80px;
+    display: flex;
+    flex-direction: row;
+}
+section article{
+    margin: 0 10px 0 15px;
+}
+hr{
+    border-color: rgb(243, 187, 83);
+}
+nav{
+    width: 30%;
+    display: inline-block;
+    background-color: rgb(120, 192, 120);
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color:rgb(243, 187, 83);
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+aside{
+    display: flex;
+    justify-content: center;
 }
 footer{
-    background-color: blue;
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    background-color: rgb(120, 192, 120);
 }
