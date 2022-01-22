@@ -1,59 +1,56 @@
 body{
     margin: 0;
-    background-color: rgb(53, 53, 53);
+    background-color: rgb(31, 31, 31);
     color: white;
     padding: 0;
 }
-h2{
-    padding-left: 15px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: x-large;
-}
+
 img{
+    /* Width ancho */
     width: 100%;
 }
 main{
     display: inline-block;
-    width: 67%;
-    padding: 20px;
+    width: 70%;
 }
-main h1{
-    color: rgb(243, 187, 83);
-}
-section{
-    margin: 40px 100px 40px 80px;
-    display: flex;
-    flex-direction: row;
-}
-section article{
-    margin: 0 10px 0 15px;
-}
-hr{
-    border-color: rgb(243, 187, 83);
-}
+
 nav{
-    width: 30%;
+    width: auto;
     display: inline-block;
-    background-color: rgb(120, 192, 120);
+    /* background-color: chocolate; */
 }
+
+/* anchor dentro de nav */
 nav a{
     color: white;
     text-decoration: none;
 }
-a:hover{
-    color:rgb(243, 187, 83);
+
+/* Utilizando clases */
+.padding-100{
+    /*padding: 100px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    */
+    /* padding-right: 100px;
+    padding-left: 100px; */
+    padding:0px 100px;
 }
-nav ul{
-    display: flex;
-    justify-content: space-around;
+
+.detalles{
+    
 }
-aside{
-    display: flex;
-    justify-content: center;
+
+.detalles article{
+    border: 1px solid rgb(92, 92, 92);
+    margin: 30px 0px;
 }
+
+.beneficios{
+    /* background-color: darkmagenta; */
+    color: lightblue;
+}
+
 footer{
-    display: flex;
-    justify-content: center;
-    padding: 8px;
-    background-color: rgb(120, 192, 120);
+    background-color: steelblue;
 }
