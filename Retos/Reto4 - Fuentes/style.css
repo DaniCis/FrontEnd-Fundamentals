@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.site-header{
+    background-image: url(fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center center;
+    height: 27rem;
+}
+.site-nav{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 30px;
+}
+.site-nav a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding: 0 25px;
+    font-weight: bold;
+}
+.site-nav a:hover{
+    color: rgb(2, 240, 2);
+}
+.site-tittle{
+    margin: 80px 450px ;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;  
+    background-color: rgba(179, 179, 179, 0.8); 
+}
+.site-tittle h2{
+    padding-top: 30px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+}
+.site-tittle span{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-size: 18px;
+}
+body{
+    background-color: rgb(230, 230, 230);
+}
+.site-content{
+    margin: 15px 20px;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: center;
+}
+.site-card{
+    border:  1px solid white;
+    border-radius: 10px;
+    background-color: white;
+    margin: 10px;
+}
+.site-card span{
+    font-family: 'Sedgwick Ave', cursive;
+    border-radius: 5px;
+    border: 2px outset rgb(84, 202, 84);
+    background-color: rgb(84, 202, 84);
+    padding: 5px;
+}
+.site-card h3{
+    background-color: rgb(239, 215, 245);
+    border-bottom: 1px solid rgb(194, 194, 194);
+    margin: 10px 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+.site-card img{
+    width: 200px;
+    height: 280px;
+}
+.site-footer{
+    background-color: rgb(53, 53, 53);
+    padding: 40px 0;
+}
