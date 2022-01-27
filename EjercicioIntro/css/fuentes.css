@@ -5,7 +5,18 @@
 .italic{
     font-style: italic;
 }
+body{
+    background-color: rgb(29, 29, 29);
+    color: rgb(200, 200, 200);
+}
 section p{
     /*typeface*/
     font-family: 'Comforter', cursive;
+}
+.nutrition-information{
+    display: flex;
+}
+
+pre{
+    font-family: 'Roboto', sans-serif;
 }
