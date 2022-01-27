@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
+.bold{
+    font-weight: bold;
+}
+.italic{
+    font-style: italic;
+}
+section p{
+    /*typeface*/
+    font-family: 'Comforter', cursive;
+}
