@@ -1,11 +1,40 @@
 #uglyparagraph{
-    color: #05668D;
-    border: 1px solid #05668D;
-    padding:10px;
+    border:5px solid rgb(10, 10, 10);
+    background-color: gray;
+    color:rgb(212, 14, 14);
+    margin: 15px 70px;
 }
 .orange{
-    color: #fb4d3d
+   color:#fb8c00; 
+   font-size: 25px;
 }
 #uglydiv{
-    
+    border: 5px solid rgb(243, 159, 159);
+    color: white;
+    background-color: rgb(26, 25, 25);
+    margin: 15px 100px;
+}
+#uglybq{
+    font-size: 25px;
+    border: 3px solid yellow;
+    color: white;
+    text-align: center;
+    background-color: rgb(173, 173, 240);
+}
+.bluecell,.greencell,.redcell,.yellowcell{
+    padding: 20px;
+    color: white;
+    border: 5px double black;
+}
+.greencell{
+    background-color: #99CC00;
+}
+.bluecell{
+    background-color: #2758eb;
+}
+.redcell{
+    background-color: #eb4141;
+}
+.yellowcell{
+    background-color: #fdca31;
 }
