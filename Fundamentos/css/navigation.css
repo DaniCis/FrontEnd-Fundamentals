@@ -29,80 +29,54 @@ nav a{
     text-decoration: none;
 }
 
-nav li a:link{
+nav li a:link,nav li a:visited, nav li a:hover,nav li a:active,nav ul ul li a:link, nav ul ul li a:visited,nav ul ul li a:hover,nav ul ul li a:active{
     font-size: 10pt;
     font-weight: bold;
     display: block;
     padding: 10px 0 10px 10px;
-    background-color: #E4E9B2;
+}
+
+nav li a:link,nav ul ul li a:link{
+    background-color: #948CB8;
     color: white;
 }
-nav li a:visited{
-    font-size: 10pt;
-    font-weight: bold;
-    display: block;
-    padding: 10px 0 10px 10px;
-    background-color: #B5CBB7;
+
+nav li a:visited,nav ul ul li a:visited{
+    background-color: #914E92;
     color: white;
 }
 
 nav li a:hover{
-    font-size: 10pt;
-    font-weight: bold;
-    display: block;
-    padding: 10px 0 10px 10px;
-    background-color: #E7E08B;
+    background-color: #23b2bd;
     color: black;
+    opacity: 0.8;
 }
 nav li a:active{
-    font-size: 10pt;
-    font-weight: bold;
-    display: block;
-    padding: 10px 0 10px 10px;
-    background-color: #E4E9B2;
+    background-color: #9CD9A5;
     color: white;
 }
 
 nav ul ul{
     margin: 0;
     margin-top: 1px;
-    padding-left: 10px;
+}
+nav ul ul div{
+    background-color: #de00e2;
+    padding-left: 15px;
+    font-style: normal;
 }
 
 nav ul ul li{
     border-bottom: none;
 } 
 
-nav ul ul li a:link{
-    font-size: 10pt;
-    font-weight: bold;
-    display: block;
-    padding: 10px 0 10px 10px;
-    background-color: #E4E9B2;
-    color: white;
-}
-nav ul ul li a:visited{
-    font-size: 10pt;
-    font-weight: bold;
-    display: block;
-    padding: 10px 0 10px 10px;
-    background-color: #B5CBB7;
-    color: white;
-}
 nav ul ul li a:hover{
-    font-size: 10pt;
-    font-weight: bold;
-    display: block;
-    padding: 10px 0 10px 10px;
-    background-color: #E7E08B;
+    background-color: #d32ed6c5;
     color: black;
 }
+
 nav ul ul li a:active{
-    font-size: 10pt;
-    font-weight: bold;
-    display: block;
-    padding: 10px 0 10px 10px;
-    background-color: #E4E9B2;
+    background-color: #d4299b;
     color: white;
 }
 
