@@ -1,0 +1,10 @@
+/* Aplicando grid al parent de los elementos */
+body{
+    display: grid;
+    grid-template-columns: 200px 150px 100px 300px;
+}
+div{
+    width:100px;
+    height:100px;
+    background-color: aqua;
+}
