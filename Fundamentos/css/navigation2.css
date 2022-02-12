@@ -61,3 +61,38 @@ nav li a:hover{
     left: calc(50% - 45px);
     border: black 1px solid;
 }
+main{
+    padding: 40px 100px 188px 200px;
+    display: grid;
+    grid-template-columns: 25% 60%;
+    background-color: #bd9bad;
+}
+header h1{
+    color:#851b52;
+}
+header p{
+    font-style: normal;
+    line-height: 2;
+}
+.sec-nav{
+    margin-left: 40px;
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 40% 40%;
+}
+
+.sec-nav li{
+    padding:20px;
+    list-style: none;
+    font-style: normal;
+    width: 200px;
+    height: 100px;
+    border: 3px solid rgb(163, 108, 108);
+    background-color: rgba(161, 114, 114, 0.37);
+    border-radius: 8px;
+}
+.sec-nav a{
+    text-decoration: none;
+    color:#c5116e; 
+    font-weight: bold;
+}
