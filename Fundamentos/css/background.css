@@ -23,8 +23,6 @@
 .box2{
     width: 500px;
     height: 500px;
-
-    /* background-color: aqua; */
     background: url('https://raw.githubusercontent.com/tzuzulcode/frontend-fundamentals-enero-2022/main/images/logo.png') bottom left -15px / 50% no-repeat,
         url('https://www.pnguniverse.com/wp-content/uploads/2021/01/Media-luna.png') center;
     display: flex;

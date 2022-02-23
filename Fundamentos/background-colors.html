@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background colors</title>
+    <style>
+        /* 
+        tbody tr:nth-child(2){
+            background-color: blueviolet;
+        tbody tr:nth-child(even){
+            background-color: blueviolet;
+        }
+        tbody tr:nth-child(odd){
+            background-color: aqua;
+        } */
+        tbody tr:nth-child(2n+3){
+            background-color: palevioletred;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Last Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Cesar</td>
+                <td>Lopez</td>
+            </tr>
+            <tr>
+                <td>Roberto</td>
+                <td>Solano</td>
+            </tr>
+            <tr>
+                <td>Emilio</td>
+                <td>Sosa</td>
+            </tr>
+            <tr>
+                <td>Ricardo</td>
+                <td>tapia</td>
+            </tr>
+            <tr>
+                <td>Cesar</td>
+                <td>Lopez</td>
+            </tr>
+            <tr>
+                <td>Roberto</td>
+                <td>Solano</td>
+            </tr>
+            <tr>
+                <td>Emilio</td>
+                <td>Sosa</td>
+            </tr>
+            <tr>
+                <td>Ricardo</td>
+                <td>tapia</td>
+            </tr>
+            <tr>
+                <td>Cesar</td>
+                <td>Lopez</td>
+            </tr>
+            <tr>
+                <td>Roberto</td>
+                <td>Solano</td>
+            </tr>
+            <tr>
+                <td>Emilio</td>
+                <td>Sosa</td>
+            </tr>
+            <tr>
+                <td>Ricardo</td>
+                <td>tapia</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
+
+<!-- :nth-child()
+Pseudo clase
+Selecciona uno o mas elementos
+Se basa en el orden en el que aparecen
+Recibe un atributo: 
+    -numero
+    -even (par)
+    -odd (impar)
+    -formula
+
+-->
