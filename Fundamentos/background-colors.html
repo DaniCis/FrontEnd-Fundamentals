@@ -21,15 +21,29 @@
         table,tbody{
             border-spacing: 0;
             width: 500px;
+            text-align: center;
         }
         thead tr th, tr td{
             padding: 10px;
         }
-        tbody tr:nth-child(2n+3){
-            background-color: palevioletred;
+        tr th{
+            background-color: #c05e12;
+            color: white;
+            text-transform: uppercase;
         }
-        tbody tr:nth-last-child(1){
-            background-color: darkcyan;
+        tbody tr:nth-child(3n){
+            background-color: #BF9270;
+        }
+        
+        tbody tr:nth-child(3n+1){
+            background-color: #E3B7A0;
+        }
+        
+        tbody tr:nth-child(3n+2){
+            background-color: #EDCDBB;
+        }
+        tbody tr:nth-last-child(1),tbody tr:nth-child(1){
+            background-color: #FFEDDB;
         }
     </style>
 </head>
