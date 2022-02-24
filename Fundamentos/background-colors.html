@@ -18,6 +18,10 @@
         nth-of-type()
         nth-last-of-type()
         */
+        body{
+            /* background-image: linear-gradient(to right, #c5f9d7,#f7d486,#f27a7c); */
+            background-image: radial-gradient(#f7d486,#f27a7c);
+        }
         table,tbody{
             border-spacing: 0;
             width: 500px;
@@ -38,12 +42,14 @@
         tbody tr:nth-child(3n+1){
             background-color: #E3B7A0;
         }
-        
         tbody tr:nth-child(3n+2){
             background-color: #EDCDBB;
         }
         tbody tr:nth-last-child(1),tbody tr:nth-child(1){
             background-color: #FFEDDB;
+        }
+        tbody tr:hover{
+            background-color: #86542e;
         }
     </style>
 </head>
@@ -118,5 +124,4 @@ Recibe un atributo:
     -even (par)
     -odd (impar)
     -formula
-
 -->
