@@ -1,0 +1,88 @@
+<!-- 
+    animation-delay: retraso
+    animation-direction
+    animation-duration
+    animation-iteration-count: configurar el numero de veces para que se repita (1,2,3 infinite)
+    animation-name: keyframes
+    animation-play-state: play o pause
+    animation-timing-function: define las curvas de animacion (rapida, lenta)
+    animacion-fill-mode: antes y despues de que se ejecute
+
+    keyframes: cuadros y transiciones para ir de un lugar a otro
+    valores estado inicial, final
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animaciones</title>
+    <style>
+        div{
+            display: inline-block;
+        }
+        #animation{
+            width: 300px;
+            height: 300px;
+            animation: myAnimation 3s infinite;
+        }
+        #salto{
+            width: 200px;
+            height: 200px;
+            animation: salto 1.2s infinite;
+            background-color: blueviolet;
+        }
+        h1{
+            font-size: 50px;
+            text-align: center;
+            color: aquamarine;
+            animation: text 2s infinite;
+            animation-direction: alternate-reverse;
+            animation-timing-function: linear;
+        }
+        @keyframes myAnimation {
+            /* from{
+                transform: scale(0.5);
+                background-color: red;
+            }
+            to{
+                transform: scale(1);
+                background-color: blue;
+            } */
+            0%{
+                transform: scale(0.5);
+                background-color: red;
+            }
+            50%{
+                transform: scale(1);
+                background-color: blue;
+            }
+            100%{
+                transform: scale(0.5);
+                background-color: red;
+            }
+        }
+        @keyframes salto {
+            50%{
+                transform: translateY(-100px);
+            }
+        }
+        @keyframes text {
+            0%{
+                transform: translateX(-100px);
+                color:darkcyan;
+            }
+            100%{
+                transform: translateX(100px);
+                color:darkorchid;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="animation"></div>
+    <div id="salto"></div>
+    <h1>Mi titulo</h1>
+</body>
+</html>
