@@ -32,6 +32,8 @@
             height: 200px;
             animation: salto 1.2s infinite;
             background-color: blueviolet;
+        }#salto:hover{
+            animation-play-state: paused;
         }
         h1{
             font-size: 50px;
@@ -39,7 +41,10 @@
             color: aquamarine;
             animation: text 2s infinite;
             animation-direction: alternate-reverse;
+            animation-fill-mode: none; /*Quitar estilos y deja el original */
+            animation-delay: 5s;
             animation-timing-function: linear;
+            
         }
         @keyframes myAnimation {
             /* from{
@@ -84,5 +89,13 @@
     <div id="animation"></div>
     <div id="salto"></div>
     <h1>Mi titulo</h1>
+    <script>
+        /* Este es codigo de Javascript */
+        const persona = 'David'
+        let nombre ='Daniela'
+        nombre = 'Camila'
+        console.log(nombre)
+    </script>
+    <script src="./js/miPrimerScript.js"></script>
 </body>
 </html>
