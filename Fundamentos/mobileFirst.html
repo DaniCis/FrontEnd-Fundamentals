@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Responsive</title>
+    <style>
+        h1{
+            font-size: 2rem;
+        }
+        div{
+            font-size: 200px;
+        }
+        p{
+            line-height: 2.5;
+            letter-spacing: 0.05rem;
+            padding: 10px;
+            font-size: 1.2rem;
+            color: rgb(44, 44, 44);
+        }
+        .yellow{
+            background-color: rgb(207, 207, 0);
+            /* Abarca el 100% del espacio disponible por el elemento */
+        }
+        /* COntenido para mobile */
+        @media (min-width:640px) {
+            main{
+                padding: 4%;
+            }
+            main div{
+                padding: 0px 10px;
+                margin-bottom: 20px;
+            }
+        }
+        @media (min-width:769px) /*and (max-width:1280px)*/ {
+            main{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                column-gap: 20px;
+            }
+            /* main .yellow{
+                margin-right: 30px;
+            } */
+        }
+        @media (min-width:1281px){
+            main{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                column-gap: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="yellow">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At vitae est neque molestiae perspiciatis quae magni repellendus aperiam reiciendis consequatur autem cum aut voluptatem, ipsa sed temporibus illo consectetur magnam soluta. Possimus perspiciatis unde illo cupiditate enim autem quidem saepe recusandae reiciendis. Doloremque, quia possimus similique blanditiis consequuntur aliquid sit?</p>
+        </div>
+        <div class="yellow">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At vitae est neque molestiae perspiciatis quae magni repellendus aperiam reiciendis consequatur autem cum aut voluptatem, ipsa sed temporibus illo consectetur magnam soluta. Possimus perspiciatis unde illo cupiditate enim autem quidem saepe recusandae reiciendis. Doloremque, quia possimus similique blanditiis consequuntur aliquid sit?</p>
+        </div>
+        <div class="yellow">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At vitae est neque molestiae perspiciatis quae magni repellendus aperiam reiciendis consequatur autem cum aut voluptatem, ipsa sed temporibus illo consectetur magnam soluta. Possimus perspiciatis unde illo cupiditate enim autem quidem saepe recusandae reiciendis. Doloremque, quia possimus similique blanditiis consequuntur aliquid sit?</p>
+        </div>
+        <div class="yellow">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At vitae est neque molestiae perspiciatis quae magni repellendus aperiam reiciendis consequatur autem cum aut voluptatem, ipsa sed temporibus illo consectetur magnam soluta. Possimus perspiciatis unde illo cupiditate enim autem quidem saepe recusandae reiciendis. Doloremque, quia possimus similique blanditiis consequuntur aliquid sit?</p>
+        </div>
+        <div class="yellow">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At vitae est neque molestiae perspiciatis quae magni repellendus aperiam reiciendis consequatur autem cum aut voluptatem, ipsa sed temporibus illo consectetur magnam soluta. Possimus perspiciatis unde illo cupiditate enim autem quidem saepe recusandae reiciendis. Doloremque, quia possimus similique blanditiis consequuntur aliquid sit?</p>
+        </div>
+        <div class="yellow">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At vitae est neque molestiae perspiciatis quae magni repellendus aperiam reiciendis consequatur autem cum aut voluptatem, ipsa sed temporibus illo consectetur magnam soluta. Possimus perspiciatis unde illo cupiditate enim autem quidem saepe recusandae reiciendis. Doloremque, quia possimus similique blanditiis consequuntur aliquid sit?</p>
+        </div>
+        <div class="yellow">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At vitae est neque molestiae perspiciatis quae magni repellendus aperiam reiciendis consequatur autem cum aut voluptatem, ipsa sed temporibus illo consectetur magnam soluta. Possimus perspiciatis unde illo cupiditate enim autem quidem saepe recusandae reiciendis. Doloremque, quia possimus similique blanditiis consequuntur aliquid sit?</p>
+        </div>
+        <div class="yellow">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At vitae est neque molestiae perspiciatis quae magni repellendus aperiam reiciendis consequatur autem cum aut voluptatem, ipsa sed temporibus illo consectetur magnam soluta. Possimus perspiciatis unde illo cupiditate enim autem quidem saepe recusandae reiciendis. Doloremque, quia possimus similique blanditiis consequuntur aliquid sit?</p>
+        </div>
+        <div class="yellow">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At vitae est neque molestiae perspiciatis quae magni repellendus aperiam reiciendis consequatur autem cum aut voluptatem, ipsa sed temporibus illo consectetur magnam soluta. Possimus perspiciatis unde illo cupiditate enim autem quidem saepe recusandae reiciendis. Doloremque, quia possimus similique blanditiis consequuntur aliquid sit?</p>
+        </div>
+        <div class="yellow">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At vitae est neque molestiae perspiciatis quae magni repellendus aperiam reiciendis consequatur autem cum aut voluptatem, ipsa sed temporibus illo consectetur magnam soluta. Possimus perspiciatis unde illo cupiditate enim autem quidem saepe recusandae reiciendis. Doloremque, quia possimus similique blanditiis consequuntur aliquid sit?</p>
+        </div>
+        <div class="yellow">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At vitae est neque molestiae perspiciatis quae magni repellendus aperiam reiciendis consequatur autem cum aut voluptatem, ipsa sed temporibus illo consectetur magnam soluta. Possimus perspiciatis unde illo cupiditate enim autem quidem saepe recusandae reiciendis. Doloremque, quia possimus similique blanditiis consequuntur aliquid sit?</p>
+        </div>
+    </main>
+</body>
+</html>
